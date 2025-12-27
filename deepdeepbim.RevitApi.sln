@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deepdeepbim.RevitApi", "deepdeepbim.RevitApi\deepdeepbim.RevitApi.csproj", "{77146DBC-95CD-4C86-B83E-BED34E818697}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deepdeepbim.RevitApi.ManagedWorkflow.Core", "deepdeepbim.RevitApi.ManagedWorkflow.Core\deepdeepbim.RevitApi.ManagedWorkflow.Core.csproj", "{A6D87799-CB62-4F1E-B5D0-64F7C2001664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deepdeepbim.RevitApi.ApplicationUpdater", "deepdeepbim.RevitApi.ApplicationUpdater\deepdeepbim.RevitApi.ApplicationUpdater.csproj", "{3464EE98-E926-484E-9B5E-B30654CEB97A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deepdeepbim.RevitApi.ReloadableApplication", "deepdeepbim.RevitApi.ReloadableApplication\deepdeepbim.RevitApi.ReloadableApplication.csproj", "{A54C26BB-A1D6-409D-A941-99EC45C5599F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77146DBC-95CD-4C86-B83E-BED34E818697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77146DBC-95CD-4C86-B83E-BED34E818697}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77146DBC-95CD-4C86-B83E-BED34E818697}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77146DBC-95CD-4C86-B83E-BED34E818697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D87799-CB62-4F1E-B5D0-64F7C2001664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D87799-CB62-4F1E-B5D0-64F7C2001664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D87799-CB62-4F1E-B5D0-64F7C2001664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D87799-CB62-4F1E-B5D0-64F7C2001664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3464EE98-E926-484E-9B5E-B30654CEB97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3464EE98-E926-484E-9B5E-B30654CEB97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3464EE98-E926-484E-9B5E-B30654CEB97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3464EE98-E926-484E-9B5E-B30654CEB97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54C26BB-A1D6-409D-A941-99EC45C5599F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54C26BB-A1D6-409D-A941-99EC45C5599F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54C26BB-A1D6-409D-A941-99EC45C5599F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54C26BB-A1D6-409D-A941-99EC45C5599F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

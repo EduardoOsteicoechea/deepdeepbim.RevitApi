@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>DeepDeepBim</Name>
+		<Assembly>deepdeepbim.RevitApi\deepdeepbim.RevitApi.ReloadableApplication.dll</Assembly>
+		<AddInId>8C63C69E-2AD3-4D4C-A96A-2DA539957025</AddInId>
+		<FullClassName>deepdeepbim.RevitApi.App</FullClassName>
+		<VendorId>Eduardoos</VendorId>
+		<VendorDescription>Eduardoos, www.eduardoos.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
